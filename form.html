@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+            padding:5px;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2px;
+            align-items: center;
+            background-color: rgb(18, 116, 116);
+        }
+        h1{
+            color: aliceblue;
+        }
+        h2{
+            color: rgb(252, 252, 252);
+            margin-left: 30%;
+        }
+        li>a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        form{
+            margin: 50px;
+            margin-bottom: 10px;
+        }
+          body{
+            background-color: rgb(202, 212, 214);
+        } 
+        table{
+            border: 2px solid black;
+            padding: 20px;
+            margin-top: 10px;
+            margin-left: 30%;
+            height: 70vh;
+            width: 35%;
+            background-color: white;
+            border-color: rgb(18, 116, 116);
+        }
+        #button{
+            font-size: 15px;
+            height: 40px;
+            width: 150px;
+            color: white;
+            background-color: rgb(18, 116, 116) ;
+            margin-left: 30%;
+            margin-top: 20px;
+        }
+        #button:hover{
+            cursor: pointer;
+        }
+        li> a:hover{
+            color: #000;
+            font-size: 30px;
+        }
+        #format{
+            display: flex;
+            justify-content: right;
+            margin-right: 40px;
+        }
+        #link{
+        color: rgb(18, 116, 116);
+        }
+        input{
+            border-radius: 2%;
+        }
+    </style>
+    <nav>
+        <ul>
+            <h1>
+                Web Devlopment Tutorial
+            </h1>
+            <li><a href="Home.html"><b>Home</b></a></li>
+            <li><a href="form.html"><b>Form</b></a></li>
+            <li><a href="list.html"><b>List</b></a></li>
+            <li><a href="table.html"><b>Table</b></a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <h2><b>Sign Up </b></h2>
+       <table>
+        <div id="form"> 
+            <tr>
+                <td>First Last Name*: </td>
+                <td><input name="fname" type="text"> <input name="lname" type="text"></td>
+            </tr>
+            <tr>
+                <td>Organization</td>
+                <td> <input name="descp" type="text"></td>
+            </tr>
+            <tr>
+                <td>Email address*</td>
+                <td><input name="mail" type="email"></td>
+            </tr>
+            <tr>
+                <td>Worwk Phone: </td>
+                <td><input name="W_ph" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Home Phone: </td>
+                <td><input name="H_ph" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Cell Phone: </td>
+                <td><input name="C_ph" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Fax: </td>
+                <td>
+                    <input name="" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Address1: </td>
+                <td><input name="" type="text"></td>
+            </tr>
+            <tr>
+                <td>Address12: </td>
+                <td><input name="" type="text"></td>
+            </tr>
+            <tr>
+                <td>City*: </td>
+                <td><input name="" type="text"></td>
+            </tr>
+            <tr>
+                <td>State Passcode: </td>
+                <td><input name="" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Zip Postal Code: </td>
+                <td><input name="" type="tel"></td>
+            </tr>
+            <tr>
+                <td>Country*: </td>
+                <td><input name="" type="text"></td>
+            </tr>
+            <tr>
+                <td>*- required fields</td>
+                <td > <div id="format">
+                    <a href="#" id="link">format</a>
+                    </div>
+                </td>
+            </tr>
+        </div>
+        </table>
+        <input type="submit" id="button">
+    </form>
+</body>
+
+</html>

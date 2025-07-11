@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 5px;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2px;
+            align-items: center;
+            background-color: rgb(18, 116, 116);
+        }
+
+        h1 {
+            color: aliceblue;
+        }
+
+        li>a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        li>a:hover {
+            color: #000;
+            font-size: 30px;
+        }
+
+        #main {
+            width:90%;
+            height:100%;
+            display: flex;
+            justify-content:center ;
+            gap: 100px;
+            margin: 60px;
+            margin-top: 150px;
+        }
+        #block1{
+            background-color:#b7e6e6c4;
+            height: 200px;
+            width: 400px;
+            align-content: center;
+            justify-items:center ;
+            border-radius: 5%;
+        }
+        #block2{
+            background-color: #b7e6e6c4;
+            height: 200px;
+            width: 400px;
+            align-content: center;
+            justify-items:center ;
+            border-radius: 5%;
+        }
+        #block3{
+            background-color:#b7e6e6c4;
+            height: 200px;
+            width: 400px;
+            justify-items:center ;
+            align-content: center;
+            border-radius: 5%;
+        }
+        .button{
+            display: flex;
+            justify-content: center ;
+            align-content: center;
+            margin-top: 20px;
+            background-color: rgb(18, 116, 116);
+            color: white;
+            width: 70px;
+            height: 20px;
+            margin-left: 160px;
+        }
+        .button:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <nav>
+        <ul>
+            <h1>
+                Web Devlopment Tutorial
+            </h1>
+            <li><a href="Home.html"><b>Home</b></a></li>
+            <li><a href="form.html"><b>Form</b></a></li>
+            <li><a href="list.html"><b>List</b></a></li>
+            <li><a href="table.html"><b>Table</b></a></li>
+        </ul>
+    </nav>
+</head>
+
+<body>
+    <section>
+        <div id="main">
+            <div id="block1">
+                <h2>Click here to see Form!</h2>
+                <a href="form.html"><input type="submit" class="button" value="see..."></a>
+            </div>
+            <div id="block2">
+                <h2>Click here to see List!</h2>
+                <a href="list.html"><input type="submit" class="button" value="see..."></a>
+            </div>
+            <div id="block3">
+                <h2>Click here to see Table!</h2>
+                <a href="table.html"><input type="submit" class="button" value="see..."></a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #list{
+            list-style: none;
+            padding:5px;
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2px;
+            align-items: center;
+            background-color: rgb(18, 116, 116);
+        }
+        .nav{
+            list-style-image: none;
+        }
+        h1{
+            color: aliceblue;
+        }
+         li>a{
+            color: aliceblue;
+            text-decoration: none;
+        }
+        li> a:hover{
+            color: #000;
+            font-size: 30px;
+        }
+        h3{
+            background-color: rgb(18, 116, 116);
+            margin-top: 20px;
+            padding: 10px;
+            color: aliceblue;
+        }
+        ul{
+            margin: 20px;
+            padding: 2px;
+        }
+        li{
+            
+            margin-bottom: 8px;
+        }
+        .icon>li{
+        list-style: none;
+            margin: 20px;
+            background: url('icon.png') no-repeat left center;
+            background-size: 16px 16px; 
+            padding-left: 24px;
+        }
+    </style>
+    <nav>
+        <ul id="list">
+            <h1>
+                Web Devlopment Tutorial
+            </h1>
+            <li><a href="Home.html" class="nav"><b>Home</b></a></li>
+            <li><a href="form.html" class="nav"><b>Form</b></a></li>
+            <li><a href="list.html" class="nav"><b>List</b></a></li>
+            <li><a href="table.html" class="nav"><b>Table</b></a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+     <H3>Programming Languages:</H3>
+            <ul  class="icon">
+<li><b>Python – </b>Primary language for AI/ML development</li>
+
+<li><b>SQL – </b>For data querying and manipulation</li>
+
+<li><b>R (optional/advanced track) –</b> For statistical analysis and data science</li>
+</ul>
+
+<h3>AI/ML Libraries & Frameworks:</h3>
+<ul class="icon"><li><b>NumPy – </b>Numerical computing </li>
+
+<li><b>Pandas – </b>Data manipulation and analysis</li>
+
+<li><b>Matplotlib & Seaborn –</b> Data visualization</li>
+
+<li><b>Scikit-learn – </b>Machine learning algorithms</li>
+
+<li><b>TensorFlow – </b>Deep learning framework</li>
+
+<li><b>Keras – </b>High-level neural networks API</li>
+
+<li><b>PyTorch – </b>Alternative deep learning framework (optional/advanced)</li>
+
+<li><b>OpenCV –</b> Computer vision tasks</li>
+
+<li><b>NLTK / spaCy –</b> Natural language processing</li>
+</ul>
+<h3>Tools & Platforms: </h3>
+<ul class="icon"><li><b>Jupyter Notebook –</b> Interactive coding environment</li>
+
+<li><b>Google Colab –</b> Cloud-based coding platform</li>
+
+<li><b>Anaconda – </b>Python/R distribution for data science</li>
+
+<li><b>Git & GitHub – </b>Version control and collaboration</li>
+
+<li><b>AWS / Google Cloud / Azure (optional) – </b>Cloud deployment and ML services</li>
+            </ul>
+</body>
+</html>
